@@ -1,0 +1,87 @@
+/* Default CSS */
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    width: 85%;
+    margin: auto;
+    color: #3a3a3a;
+}
+.d-flex
+{
+    display: flex;
+}
+
+.header-logo{
+    font-size: 25px;
+    margin-top: 100px;
+}
+.default-btn{
+    background-color: #e02c6d;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+/* Banner Section */
+.banner-section{
+    margin: 100px 0;
+}
+.banner-left , .banner-right{
+    width: 50%;
+}
+.banner-left h1{
+    font-size: 55px;
+    margin: 0;
+    line-height: 70px;
+}
+.banner-left p{
+    font-size: 16px;
+    margin: 20px 0 ;
+}
+.banner-right {
+    display: flex;
+    justify-content: right;
+}
+
+/* Collection */
+.d-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.collection div{
+    box-shadow: -5px 5px 20px 5px #ddd;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.collection div img{
+    width: 100%;
+    max-width: 100%;
+}
+.collection div h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.collection div h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.collection div h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #7a7a86;
+}
+.collection div p{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #7a7a86;
+}
+.collection div span{
+    color: #fb8200;
+}
