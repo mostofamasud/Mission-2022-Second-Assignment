@@ -11,17 +11,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-    <header>
+    <header class="d-flex header">
         <div class="header-logo">
             <h2>Influencer products</h2>
+        </div>
+        <div class="header-menu-item">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Log In</a></li>
+                <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart" ></i></a></li>
+            </ul>
         </div>
     </header>
     <main>
         <section class="banner-section d-flex">
+            <div class="banner-right-mobile"><img src="images/main-camera.png" alt=""></div>
                     <div class="banner-left">
-                        <h1>Start your Journey as <br>Influencer</h1>
+                        <h1>Start your Journey as Influencer</h1>
                             <p>This is our first journey. Provide our correct guideline so that we can shine in our journey. It's my dream job. I will be very much affectionate to for this.</p>
                             <button class="default-btn">Preebook Now <span><i class="fas fa-arrow-right"></i></span> </button>
                         
@@ -172,8 +184,26 @@
                         </div> -->
 
                     </div>
+                    <div class="collection-btn"><button class="default-btn bg-null">Know More <span><i class="fas fa-arrow-right"></i></span> </button></div>
             </div>
         </section>
+        <section class="banner-section d-flex">
+            <div class="top-footer-left">
+                <img src="images/pic-9.png" alt=""> 
+                <h1>This is out Feature product</h1>
+                <p>This is our new product. We are lanching this product within a month. It has several feature. You may know more about this. Please visit our product page.</p>    
+            </div>
+            <div class="top-footer-right">
+               
+                    <h3>Contact Us </h3>
+                    <form action="#">
+                        <input type="text" placeholder="Type your name....">
+                        <input type="email" placeholder="Type your email....">
+                        <input type="number" placeholder="Type your product name or code....">
+                    </form>
+                    <button class="default-btn subscribe-btn">Subscribe Now <span><i class="fas fa-arrow-right"></i></span> </button>
+            </div>
+</section>
     </main>
         <footer class="footer-section">
             <h1>Influencer Products</h1>

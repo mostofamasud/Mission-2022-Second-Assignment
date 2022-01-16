@@ -2,8 +2,9 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
-    margin: auto;
     color: #3a3a3a;
+    margin: 0;
+    padding: 0;
 }
 main, header{
     width: 85%;
@@ -12,11 +13,6 @@ main, header{
 .d-flex
 {
     display: flex;
-}
-
-.header-logo{
-    font-size: 25px;
-    margin-top: 100px;
 }
 .default-btn{
     background-color: #e02c6d;
@@ -27,11 +23,38 @@ main, header{
     padding: 10px 30px;
     border-radius: 50px;
 }
+/* Header */
+.header{
+    margin-top: 100px;
+}
+.header-logo{
+    font-size: 25px;
+    width: 58%;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    text-align: right;
+}
+ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #3a3a3a;
+    font-weight: 600;
+}
+
 /* Banner Section */
 .banner-section{
     margin: 100px 0;
 }
-.banner-left , .banner-right{
+.banner-left{
+   margin-top: 80px;
+}
+.banner-left , .banner-right, .top-footer-left, .top-footer-right{
     width: 50%;
 }
 .banner-left h1{
@@ -44,12 +67,15 @@ main, header{
     margin: 20px 0 ;
 }
 .banner-right {
-    display: flex;
-    justify-content: right;
+    text-align: right;
 }
 
+
 /* Collection */
-.collection-section{
+.collection-item-section h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
 }
 .d-grid{
     display: grid;
@@ -69,6 +95,7 @@ main, header{
     font-size: 30px;
     font-weight: 500;
     margin: 10px 0;
+    text-align: left;
 }
 .collection div h3{
     font-size: 30px;
@@ -91,6 +118,46 @@ main, header{
     color: #fb8200;
 }
 
+.collection-btn{
+    text-align: right;
+}
+.bg-null{
+    background-color: transparent;
+    color: #e02c6d;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 800;
+}
+/* Footer top section */
+.top-footer-left img{
+    width: 80%;
+}
+.top-footer-left h1{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.top-footer-right h3{
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+form{
+    margin-top: 0px;
+}
+input{
+    padding: 10px;
+    margin: 15px;
+    width: 100%;
+    border: none;
+    box-shadow: 2px 3px 4px 5px #ddd;
+    margin-left: 0;
+}
+.subscribe-btn{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0px;
+}
 
 /* Footer Section */
 .footer-section{
@@ -99,13 +166,29 @@ main, header{
     text-align: center;
     padding: 40px 0px;
 }
+.footer-section h1{
+    font-size: 30px;
+    margin: 0px;
+}
+.footer-section p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 4px;
+    color: #9595a4;
+}
+.footer-section span p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #9595a4;
+}
 .social-icon span{
     display: inline-block;
     width: 50px;
     height: 50px;
     background-color: #22203b;
     font-size: 30px;
-    margin: 0 8px;
+    margin: 5px;
+    margin-top: 15px;
     padding: 5px;
     border-radius: 50%;
 }

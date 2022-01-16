@@ -1,0 +1,90 @@
+@media only screen and (max-width:688px) {
+    body{
+        width: 100%;
+        margin: 0px;
+        padding: 0;
+        margin-right: 0px;
+    }
+    .header-logo{
+        text-align: center;
+        width: 100%;
+    }
+    .header-menu-item{
+        display: none;
+    }
+    .banner-section{
+        display: block;
+    }
+    .banner-left{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .banner-right-mobile{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-right{
+        display: none;
+    }
+    .collection{
+        display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    }
+    .top-footer-left{
+        display: block;
+        width: 100%;
+    }
+    .top-footer-left img{
+        display: block;
+        width: 100%;
+    }
+    .top-footer-left h1{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .top-footer-left p{
+        text-align: center;
+    }
+
+    .top-footer-right{
+        width: 100%;
+        display: block;
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    body{
+        width: 100%;
+        margin: 0px;
+        padding: 0;
+        margin-right: 0px;
+    }
+    .header-logo{
+        text-align: center;
+        width: 100%;
+    }
+    .header-menu-item{
+        display: none;
+    }
+    .banner-right-mobile {
+        display: none;
+    }
+    .collection{
+        display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (min-width:991px) and (max-width:2500px) {
+    body{
+        width: 100%;
+        margin: 0px;
+        padding: 0;
+        margin-right: 0px;
+    }
+    .banner-right-mobile {
+        display: none;
+    }
+}
