@@ -1,6 +1,9 @@
 /* Default CSS */
-body{
+/* *{
     font-family: 'Montserrat', sans-serif;
+    
+} */
+body{
     font-family: 'Poppins', sans-serif;
     color: #3a3a3a;
     margin: 0;
